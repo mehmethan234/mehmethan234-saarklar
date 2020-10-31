@@ -26,7 +26,7 @@ db.set("linkler", [])
 })
 
 client.on("ready", () => {
-  client.user.setActivity(`u!ekle | u!yardım`, { url: 'https://twitch.tv/ardacan1888', type: 'STREAMING' });
+  client.user.setActivity(`qu!ekle | qu!yardım`, { url: 'https://twitch.tv/ardacan1888', type: 'STREAMING' });
   console.log(`Logined`)
 })
 
@@ -34,7 +34,7 @@ client.on("ready", () => {
 client.on("message", message => {
   if(message.author.bot) return;
   var spl = message.content.split(" ");
-  if(spl[0] == "u!ekle") {
+  if(spl[0] == "qu!ekle") {
 
   let embed10 = new Discord.RichEmbed()
         .setAuthor(`==================================`)
@@ -86,7 +86,7 @@ var link = spl[1]//ukqzn
 client.on("message", message => {
   if(message.author.bot) return;
   var spl = message.content.split(" ");
-  if(spl[0] == "u!botsay") {
+  if(spl[0] == "qu!botsay") {
   var link = spl[1]
  message.channel.send(`<a:up12:772083038317445130>  Toplam \`${db.get("linkler").length}\` bot **aktif tutuluyor!**`)//ukqzn
 }})
@@ -98,18 +98,18 @@ const Discord = require('discord.js');
 client.on("message", message => {
   if(message.author.bot) return;
     var spl = message.content.split(" ");
-  if(spl[0] == "u!yardım") {
+  if(spl[0] == "qu!yardım") {
 let embed3 = new discord.RichEmbed()
 .setColor('#FFCBDB')
 .setDescription(`
-<a:up12:772083038317445130> \`u!yardım\`\n**qєиzуυρтιмєвσтYardım menüsünü Görüntüler.**
-<a:up12:772083038317445130> \`u!ekle\`\n**qєиzуυρтιмєвσт Sistemine Bot Eklersiniz ve 7/24 Aktif Tutar.**
-<a:up12:772083038317445130> \`u!botsay\`\n**qєиzуυρтιмєвσт'n Sisteminde Kaç Proje Olduğunu Gösterir.**
-<a:up12:772083038317445130> \`u!botbilgi\`\n**qєиzуυρтιмєвσт'un İstatistik Verilerini Atar.**
-<a:up12:772083038317445130> \`u!davet\`\n**qєиzуυρтιмєвσт'un Davet Linkini Atar.**
-<a:up12:772083038317445130> \`u!yapımcım\`\n**qєиzуυρтιмєвσт'un Yapımcısını Gösterir!**
+<a:up12:772083038317445130> \`qu!yardım\`\n**qєиzуυρтιмєвσтYardım menüsünü Görüntüler.**
+<a:up12:772083038317445130> \`qu!ekle\`\n**qєиzуυρтιмєвσт Sistemine Bot Eklersiniz ve 7/24 Aktif Tutar.**
+<a:up12:772083038317445130> \`qu!botsay\`\n**qєиzуυρтιмєвσт'n Sisteminde Kaç Proje Olduğunu Gösterir.**
+<a:up12:772083038317445130> \`qu!botbilgi\`\n**qєиzуυρтιмєвσт'un İstatistik Verilerini Atar.**
+<a:up12:772083038317445130> \`qu!davet\`\n**qєиzуυρтιмєвσт'un Davet Linkini Atar.**
+<a:up12:772083038317445130> \`qu!yapımcım\`\n**qєиzуυρтιмєвσт'un Yapımcısını Gösterir!**
 
-<a:ay:770349119209209876> Yapımcım : u!yapımcım <a:ay:770349119209209876>
+<a:ay:770349119209209876> Yapımcım : qu!yapımcım <a:ay:770349119209209876>
 `)
 .setTitle(`<a:ay:770349119209209876> qєиzуυρтιмєвσт - Yardım Menüsü <a:ay:770349119209209876>`)
 .setThumbnail(message.author.avatarURL)
@@ -126,7 +126,7 @@ return message.channel.send(embed3);
 client.on("message", message => {
   if(message.author.bot) return;
     var spl = message.content.split(" ");
-  if(spl[0] == "u!botbilgi") {
+  if(spl[0] == "qu!botbilgi") {
 let embed4 = new discord.RichEmbed()
 .setColor('#FFCBDB')
 .setDescription(`
@@ -147,7 +147,7 @@ return message.channel.send(embed4);
 client.on("message", message => {
   if(message.author.bot) return;
     var spl = message.content.split(" ");
-  if(spl[0] == "u!davet") {
+  if(spl[0] == "qu!davet") {
 let embed5 = new discord.RichEmbed()
 .setColor('#FFCBDB')
 .setDescription(`
@@ -168,7 +168,7 @@ return message.channel.send(embed5);
 client.on("guildCreate", server => {
   let embed6 = new Discord.RichEmbed()
     .setTitle(`Beni Sunucunuza Eklediğniz için Teşekkür Ederim!`)
-    .setDescription("**u!yardım yazarak komutlarımı Öğrenebilirsiniz** <a:onay:756097883383791667>")
+    .setDescription("**qu!yardım yazarak komutlarımı Öğrenebilirsiniz** <a:onay:756097883383791667>")
     .setColor('#FFCBDB')
     .setTimestamp()
   server.owner.send(embed6);
@@ -176,11 +176,11 @@ client.on("guildCreate", server => {
   client.on("message", message => {
   if(message.author.bot) return;
     var spl = message.content.split(" ");
-  if(spl[0] == "u!yapımcım") {
+  if(spl[0] == "qu!yapımcım") {
 let embed5 = new discord.RichEmbed()
 .setColor('#FFCBDB')
 .setDescription(`
-<a:an:762725108867268609> [**Yapımcım - 女QenzyEliteCode#0001**]()
+<a:an:762725108867268609> [**Yapımcım - 女Qenzy Code#0001**]()
 <a:an:762725108867268609> [**Yapımcıma Ulaşmak İçin Tıkla**](https://discord.gg/TmgNske)
 `)
 .setTitle(`<a:onay:756097883383791667>qєиzуυρтιмєвσт Yapımcım <a:onay:756097883383791667>`)
