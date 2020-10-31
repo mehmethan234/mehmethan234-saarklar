@@ -3,7 +3,7 @@ require("express")().listen(1343);
 const db = require("quick.db"); 
 const discord = require("discord.js");
 const client = new discord.Client({ disableEveryone: true });//ukqzn
-client.login("NzcwMTg4NDk4ODY3MDYwNzc3.X5Z77w.Ex4Ql1ti-XAd6rcbhj_dm1Tl86A");
+client.login("NzcyMDg2MzcyNzE4MDg0MTI3.X51jdw.IhVWorlcYTMFAmKvl_b_l-sJcE4");
 const fetch = require("node-fetch");
 const fs = require('fs')//ukqzn
 
@@ -108,9 +108,9 @@ let embed3 = new discord.RichEmbed()
 <a:up12:772083038317445130> \`u!botbilgi\`\n**UptimeBot'un İstatistik Verilerini Atar.**
 <a:up12:772083038317445130> \`u!davet\`\n**UptimeBot'un Davet Linkini Atar.**
 
-<a:uptimeb:770505317683298325> Botumu Kullandığnız İçin Teşekkürler! <a:uptimeb:770505317683298325>
+<a:ay:770349119209209876> Botumu Kullandığnız İçin Teşekkürler! <a:ay:770349119209209876>
 `)
-.setTitle(`<a:uptimeb:770505317683298325> Uptime Bot - Yardım Menüsü <a:uptimeb:770505317683298325>`)
+.setTitle(`<a:ay:770349119209209876> Uptime Bot - Yardım Menüsü <a:ay:770349119209209876>`)
 .setThumbnail(message.author.avatarURL)
 .setImage(`https://images-ext-1.discordapp.net/external/LPg6gvHQmn_nVoSFr3B0m79vC-BgHOXknrVh3C1Ec9I/https/i.imgur.com/ZBKrXsQ.gif`)
 .setTimestamp()
