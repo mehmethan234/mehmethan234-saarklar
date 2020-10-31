@@ -26,7 +26,7 @@ db.set("linkler", [])
 })
 
 client.on("ready", () => {
-  client.user.setActivity(`u!ekle | Developer:QenzyCode`, { url: 'https://twitch.tv/ardacan1888', type: 'STREAMING' });
+  client.user.setActivity(`u!ekle | u!yardım`, { url: 'https://twitch.tv/ardacan1888', type: 'STREAMING' });
   console.log(`Logined`)
 })
 
@@ -109,7 +109,7 @@ let embed3 = new discord.RichEmbed()
 <a:up12:772083038317445130> \`u!davet\`\n**UptimeBot'un Davet Linkini Atar.**
 <a:up12:772083038317445130> \`u!yapımcım\`\n**UptimeBot'un Yapımcısını Gösterir!**
 
-<a:ay:770349119209209876> Yapımcım : 女QenzyEliteCode#0001 <a:ay:770349119209209876>
+<a:ay:770349119209209876> Yapımcım : u!yapımcım <a:ay:770349119209209876>
 `)
 .setTitle(`<a:ay:770349119209209876> Uptime Bot - Yardım Menüsü <a:ay:770349119209209876>`)
 .setThumbnail(message.author.avatarURL)
