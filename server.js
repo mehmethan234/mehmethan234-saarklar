@@ -26,7 +26,7 @@ db.set("linkler", [])
 })
 
 client.on("ready", () => {
-  client.user.setActivity(`qu!ekle | qu!yardım`, { url: 'https://twitch.tv/ardacan1888', type: 'STREAMING' });
+  client.user.setActivity(`qu!yardım | qu!ekle`, { url: 'https://twitch.tv/ardacan1888', type: 'STREAMING' });
   console.log(`Logined`)
 })
 
