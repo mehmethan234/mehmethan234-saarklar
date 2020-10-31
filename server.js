@@ -38,8 +38,8 @@ client.on("message", message => {
 
   let embed10 = new Discord.RichEmbed()
         .setAuthor(`==================================`)
-        .setColor('#ffff00')
-        .setTitle("<a:hayr:770352436636155934>  Bu komutu botun özelinde **kullanmalısın!**")
+        .setColor('#FFCBDB')
+        .setTitle("<a:hayr:770352436636155934> Hey Dur! Bu komutu botun özelinde **kullanmalısın!**")
         .setImage(`https://images-ext-1.discordapp.net/external/LPg6gvHQmn_nVoSFr3B0m79vC-BgHOXknrVh3C1Ec9I/https/i.imgur.com/ZBKrXsQ.gif`)
         .setDescription(`==================================`)
         .setThumbnail(message.author.avatarURL)
@@ -49,8 +49,8 @@ client.on("message", message => {
         if (message.channel.type !== "dm") return message.channel.send(embed10)
   let embed1 = new Discord.RichEmbed()
         .setAuthor(`==================================`)
-        .setColor('#ffff00')
-        .setTitle("**Link Sistemde Zaten Bulunuyor. <a:hayr:770352436636155934>**")
+        .setColor('#FFCBDB')
+        .setTitle("**Link Sistemde Zaten Aktif Ediliyor! . <a:hayr:770352436636155934>**")
         .setImage(`https://images-ext-1.discordapp.net/external/LPg6gvHQmn_nVoSFr3B0m79vC-BgHOXknrVh3C1Ec9I/https/i.imgur.com/ZBKrXsQ.gif`)
         .setDescription(`==================================`)
         .setThumbnail(message.author.avatarURL)
@@ -61,7 +61,7 @@ var link = spl[1]//ukqzn
     
     let yardım = new Discord.RichEmbed()//ukqzn
         .setAuthor(`==================================`)
-        .setColor('#ffff00')
+        .setColor('#FFCBDB')
         .setTitle("**Tebrikler Artık Botunuz 7/24 ! Yazdığnız URL Başarıyla Eklendi. <a:onay:756097883383791667>**")
         .setImage(`https://images-ext-1.discordapp.net/external/LPg6gvHQmn_nVoSFr3B0m79vC-BgHOXknrVh3C1Ec9I/https/i.imgur.com/ZBKrXsQ.gif`)
         .setDescription(`==================================`)
@@ -72,8 +72,8 @@ var link = spl[1]//ukqzn
   }).catch(e => {
     let yardım2 = new Discord.RichEmbed()//ukqzn
         .setAuthor(`==================================`)
-        .setColor('#ffff00')
-        .setTitle("**Lütfen Bir URL Girin. <a:hayr:770352436636155934>\n\n Hata: **" + e)
+        .setColor('#FFCBDB')
+        .setTitle("**Lütfen Bir Show URL'si Girin. <a:hayr:770352436636155934>\n\n Hata: **" + e)
         .setImage(`https://images-ext-1.discordapp.net/external/LPg6gvHQmn_nVoSFr3B0m79vC-BgHOXknrVh3C1Ec9I/https/i.imgur.com/ZBKrXsQ.gif`)
         .setDescription(`==================================`)
         .setTimestamp()
@@ -108,7 +108,7 @@ let embed3 = new discord.RichEmbed()
 <a:up12:772083038317445130> \`u!botbilgi\`\n**UptimeBot'un İstatistik Verilerini Atar.**
 <a:up12:772083038317445130> \`u!davet\`\n**UptimeBot'un Davet Linkini Atar.**
 
-<a:ay:770349119209209876> Botumu Kullandığnız İçin Teşekkürler! <a:ay:770349119209209876>
+<a:ay:770349119209209876> Yapımcım : 女QenzyEliteCode#0001 <a:ay:770349119209209876>
 `)
 .setTitle(`<a:ay:770349119209209876> Uptime Bot - Yardım Menüsü <a:ay:770349119209209876>`)
 .setThumbnail(message.author.avatarURL)
