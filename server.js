@@ -100,13 +100,13 @@ client.on("message", message => {
     var spl = message.content.split(" ");
   if(spl[0] == "u!yardım") {
 let embed3 = new discord.RichEmbed()
-.setColor('#ffff00')
+.setColor('BLUE')
 .setDescription(`
-<a:hyperon:770506419891470356> \`u!yardım\`\n**Yardım menüsünü Görüntüler.**
-<a:hyperon:770506419891470356> \`u!ekle\`\n**Sisteme Bot Eklersiniz 7/24 Aktif Tutar.**
-<a:hyperon:770506419891470356> \`u!botsay\`\n**Sistemde Kaç Bağlantı Olduğunu Gösterir.**
-<a:hyperon:770506419891470356> \`u!botbilgi\`\n**UptimeBot'un İstatistik Verilerini Atar.**
-<a:hyperon:770506419891470356> \`u!davet\`\n**UptimeBot'un Davet Linkini Atar.**
+<a:up12:772083038317445130> \`u!yardım\`\n**Yardım menüsünü Görüntüler.**
+<a:up12:772083038317445130> \`u!ekle\`\n**Sisteme Bot Eklersiniz 7/24 Aktif Tutar.**
+<a:up12:772083038317445130> \`u!botsay\`\n**Sistemde Kaç Bağlantı Olduğunu Gösterir.**
+<a:up12:772083038317445130> \`u!botbilgi\`\n**UptimeBot'un İstatistik Verilerini Atar.**
+<a:up12:772083038317445130> \`u!davet\`\n**UptimeBot'un Davet Linkini Atar.**
 
 <a:uptimeb:770505317683298325> Botumu Kullandığnız İçin Teşekkürler! <a:uptimeb:770505317683298325>
 `)
@@ -150,8 +150,8 @@ client.on("message", message => {
 let embed5 = new discord.RichEmbed()
 .setColor('#ffff00')
 .setDescription(`
-<a:can:770510220014518283> [**Ekleme Linkim**](https://bit.ly/37IrAfN)
-<a:can:770510220014518283> [**Destek Sunucusu**](https://discord.gg/vJJAs8A)
+<a:can:770510220014518283> [**Ekleme Linkim**](https://discord.com/oauth2/authorize?client_id=770188498867060777&permissions=8&scope=bot)
+<a:can:770510220014518283> [**Destek Sunucusu**](https://discord.gg/F6yDQ37spZ)
 `)
 .setTitle(`<a:tik1:770251922392481812> UptimeBot - Davet et <a:tik1:770251922392481812>`)
 .setImage(`https://images-ext-1.discordapp.net/external/LPg6gvHQmn_nVoSFr3B0m79vC-BgHOXknrVh3C1Ec9I/https/i.imgur.com/ZBKrXsQ.gif`)
