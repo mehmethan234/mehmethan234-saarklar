@@ -100,7 +100,7 @@ client.on("message", message => {
     var spl = message.content.split(" ");
   if(spl[0] == "u!yardım") {
 let embed3 = new discord.RichEmbed()
-.setColor('BLUE')
+.setColor('#FFCBDB')
 .setDescription(`
 <a:up12:772083038317445130> \`u!yardım\`\n**Yardım menüsünü Görüntüler.**
 <a:up12:772083038317445130> \`u!ekle\`\n**Sisteme Bot Eklersiniz 7/24 Aktif Tutar.**
@@ -127,12 +127,12 @@ client.on("message", message => {
     var spl = message.content.split(" ");
   if(spl[0] == "u!botbilgi") {
 let embed4 = new discord.RichEmbed()
-.setColor('#ffff00')
+.setColor('#FFCBDB')
 .setDescription(`
-<a:onay2:770251890621022208>  \`Kullanıcılar\` = ${client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString()}
-<a:onay2:770251890621022208>  \`Sunucular\` = ${client.guilds.size.toLocaleString()}
-<a:onay2:770251890621022208>  \`Kanallar\` =  ${client.channels.size.toLocaleString()}
-<a:onay2:770251890621022208>  \`Discord Sürümü\` = ${process.version}
+<a:up1:770251121980735498>  \`Kullanıcılar\` = ${client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString()}
+<a:up1:770251121980735498>  \`Sunucular\` = ${client.guilds.size.toLocaleString()}
+<a:up1:770251121980735498>  \`Kanallar\` =  ${client.channels.size.toLocaleString()}
+<a:up1:770251121980735498>  \`Discord Sürümü\` = ${process.version}
 `)
 .setTitle(`Uptime Bot - Bot Bilgileri!`)
 .setThumbnail(message.author.avatarURL)
@@ -148,12 +148,12 @@ client.on("message", message => {
     var spl = message.content.split(" ");
   if(spl[0] == "u!davet") {
 let embed5 = new discord.RichEmbed()
-.setColor('#ffff00')
+.setColor('#FFCBDB')
 .setDescription(`
-<a:can:770510220014518283> [**Ekleme Linkim**](https://discord.com/oauth2/authorize?client_id=772086372718084127&permissions=8&scope=bot)
-<a:can:770510220014518283> [**Destek Sunucusu**](https://discord.gg/F6yDQ37spZ)
+<a:an:762725108867268609> [**Ekleme Linkim**](https://discord.com/oauth2/authorize?client_id=772086372718084127&permissions=8&scope=bot)
+<a:an:762725108867268609> [**Destek Sunucusu**](https://discord.gg/F6yDQ37spZ)
 `)
-.setTitle(`<a:tik1:770251922392481812> UptimeBot - Davet et <a:tik1:770251922392481812>`)
+.setTitle(`<a:onay:756097883383791667> UptimeBot - Davet et <a:onay:756097883383791667>`)
 .setImage(`https://images-ext-1.discordapp.net/external/LPg6gvHQmn_nVoSFr3B0m79vC-BgHOXknrVh3C1Ec9I/https/i.imgur.com/ZBKrXsQ.gif`)
 .setTimestamp()
 .setThumbnail(message.author.avatarURL)
@@ -168,7 +168,7 @@ client.on("guildCreate", server => {
   let embed6 = new Discord.RichEmbed()
     .setTitle(`Beni Sunucunuza Eklediğniz için Teşekkür Ederim!`)
     .setDescription("**u!yardım yazarak komutlarımı Öğrenebilirsiniz** <a:onay:756097883383791667>")
-    .setColor('#ffff00')
+    .setColor('#FFCBDB')
     .setTimestamp()
   server.owner.send(embed6);
 });
