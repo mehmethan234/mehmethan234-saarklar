@@ -105,13 +105,13 @@ let embed3 = new discord.RichEmbed()
 <a:up12:772083038317445130> \`u!yardım\`\n**Yardım menüsünü Görüntüler.**
 <a:up12:772083038317445130> \`u!ekle\`\n**Sisteme Bot Eklersiniz 7/24 Aktif Tutar.**
 <a:up12:772083038317445130> \`u!botsay\`\n**Sistemde Kaç Bağlantı Olduğunu Gösterir.**
-<a:up12:772083038317445130> \`u!botbilgi\`\n**UptimeBot'un İstatistik Verilerini Atar.**
-<a:up12:772083038317445130> \`u!davet\`\n**UptimeBot'un Davet Linkini Atar.**
-<a:up12:772083038317445130> \`u!yapımcım\`\n**UptimeBot'un Yapımcısını Gösterir!**
+<a:up12:772083038317445130> \`u!botbilgi\`\n**Qenzy UptimeBot'un İstatistik Verilerini Atar.**
+<a:up12:772083038317445130> \`u!davet\`\n**Qenzy UptimeBot'un Davet Linkini Atar.**
+<a:up12:772083038317445130> \`u!yapımcım\`\n**Qenzy UptimeBot'un Yapımcısını Gösterir!**
 
 <a:ay:770349119209209876> Yapımcım : u!yapımcım <a:ay:770349119209209876>
 `)
-.setTitle(`<a:ay:770349119209209876> Uptime Bot - Yardım Menüsü <a:ay:770349119209209876>`)
+.setTitle(`<a:ay:770349119209209876> Qenzy Uptime Bot - Yardım Menüsü <a:ay:770349119209209876>`)
 .setThumbnail(message.author.avatarURL)
 .setImage(`https://images-ext-1.discordapp.net/external/LPg6gvHQmn_nVoSFr3B0m79vC-BgHOXknrVh3C1Ec9I/https/i.imgur.com/ZBKrXsQ.gif`)
 .setTimestamp()
@@ -135,7 +135,7 @@ let embed4 = new discord.RichEmbed()
 <a:up1:770251121980735498>  \`Kanallar\` =  ${client.channels.size.toLocaleString()}
 <a:up1:770251121980735498>  \`Discord Sürümü\` = ${process.version}
 `)
-.setTitle(`Uptime Bot - Bot Bilgileri!`)
+.setTitle(`Qenzy Uptime Bot - Bot Bilgileri!`)
 .setThumbnail(message.author.avatarURL)
 .setImage(`https://images-ext-1.discordapp.net/external/LPg6gvHQmn_nVoSFr3B0m79vC-BgHOXknrVh3C1Ec9I/https/i.imgur.com/ZBKrXsQ.gif`)
 .setTimestamp()
@@ -154,7 +154,7 @@ let embed5 = new discord.RichEmbed()
 <a:an:762725108867268609> [**Ekleme Linkim**](https://discord.com/oauth2/authorize?client_id=772086372718084127&permissions=8&scope=bot)
 <a:an:762725108867268609> [**Destek Sunucusu**](https://discord.gg/F6yDQ37spZ)
 `)
-.setTitle(`<a:onay:756097883383791667> UptimeBot - Davet et <a:onay:756097883383791667>`)
+.setTitle(`<a:onay:756097883383791667>Qenzy  UptimeBot - Davet et <a:onay:756097883383791667>`)
 .setImage(`https://images-ext-1.discordapp.net/external/LPg6gvHQmn_nVoSFr3B0m79vC-BgHOXknrVh3C1Ec9I/https/i.imgur.com/ZBKrXsQ.gif`)
 .setTimestamp()
 .setThumbnail(message.author.avatarURL)
@@ -183,7 +183,7 @@ let embed5 = new discord.RichEmbed()
 <a:an:762725108867268609> [**Yapımcım - 女QenzyEliteCode#0001**]()
 <a:an:762725108867268609> [**Yapımcıma Ulaşmak İçin Tıkla**](https://discord.gg/TmgNske)
 `)
-.setTitle(`<a:onay:756097883383791667> Yapımcı Bölümü <a:onay:756097883383791667>`)
+.setTitle(`<a:onay:756097883383791667> Yapımcım <a:onay:756097883383791667>`)
 .setImage(`https://images-ext-1.discordapp.net/external/LPg6gvHQmn_nVoSFr3B0m79vC-BgHOXknrVh3C1Ec9I/https/i.imgur.com/ZBKrXsQ.gif`)
 .setTimestamp()
 .setThumbnail(message.author.avatarURL)
