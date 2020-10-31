@@ -107,6 +107,7 @@ let embed3 = new discord.RichEmbed()
 <a:up12:772083038317445130> \`u!botsay\`\n**Sistemde Kaç Bağlantı Olduğunu Gösterir.**
 <a:up12:772083038317445130> \`u!botbilgi\`\n**UptimeBot'un İstatistik Verilerini Atar.**
 <a:up12:772083038317445130> \`u!davet\`\n**UptimeBot'un Davet Linkini Atar.**
+<a:up12:772083038317445130> \`u!yapımcım\`\n**UptimeBot'un Yapımcısını Gösterir!**
 
 <a:ay:770349119209209876> Yapımcım : 女QenzyEliteCode#0001 <a:ay:770349119209209876>
 `)
@@ -171,5 +172,22 @@ client.on("guildCreate", server => {
     .setColor('#FFCBDB')
     .setTimestamp()
   server.owner.send(embed6);
+  })
+  client.on("message", message => {
+  if(message.author.bot) return;
+    var spl = message.content.split(" ");
+  if(spl[0] == "u!yapımcım") {
+let embed5 = new discord.RichEmbed()
+.setColor('#FFCBDB')
+.setDescription(`
+<a:an:762725108867268609> [**Yapımcım - 女QenzyEliteCode#0001**]()
+<a:an:762725108867268609> [**Yapımcıma Ulaşmak İçin Tıkla**](https://discord.gg/TmgNske)
+`)
+.setTitle(`<a:onay:756097883383791667> Yapımcı Bölümü <a:onay:756097883383791667>`)
+.setImage(`https://images-ext-1.discordapp.net/external/LPg6gvHQmn_nVoSFr3B0m79vC-BgHOXknrVh3C1Ec9I/https/i.imgur.com/ZBKrXsQ.gif`)
+.setTimestamp()
+.setThumbnail(message.author.avatarURL)
+return message.channel.send(embed5);
+    }
 });
   
