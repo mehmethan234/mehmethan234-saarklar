@@ -39,7 +39,7 @@ client.on("message", message => {
   let embed10 = new Discord.RichEmbed()
         .setAuthor(`==================================`)
         .setColor('#ffff00')
-        .setTitle("<a:arp:770251829858271243>  Bu komutu botun özelinde **kullanmalısın!**")
+        .setTitle("<a:hayr:770352436636155934>  Bu komutu botun özelinde **kullanmalısın!**")
         .setImage(`https://images-ext-1.discordapp.net/external/LPg6gvHQmn_nVoSFr3B0m79vC-BgHOXknrVh3C1Ec9I/https/i.imgur.com/ZBKrXsQ.gif`)
         .setDescription(`==================================`)
         .setThumbnail(message.author.avatarURL)
@@ -50,7 +50,7 @@ client.on("message", message => {
   let embed1 = new Discord.RichEmbed()
         .setAuthor(`==================================`)
         .setColor('#ffff00')
-        .setTitle("**Link Sistemde Zaten Bulunuyor. <a:arp:770251829858271243>**")
+        .setTitle("**Link Sistemde Zaten Bulunuyor. <a:hayr:770352436636155934>**")
         .setImage(`https://images-ext-1.discordapp.net/external/LPg6gvHQmn_nVoSFr3B0m79vC-BgHOXknrVh3C1Ec9I/https/i.imgur.com/ZBKrXsQ.gif`)
         .setDescription(`==================================`)
         .setThumbnail(message.author.avatarURL)
@@ -62,7 +62,7 @@ var link = spl[1]//ukqzn
     let yardım = new Discord.RichEmbed()//ukqzn
         .setAuthor(`==================================`)
         .setColor('#ffff00')
-        .setTitle("**Yazdığnız URL Başarıyla Eklendi. <a:tik1:770251922392481812>**")
+        .setTitle("**Tebrikler Artık Botunuz 7/24 ! Yazdığnız URL Başarıyla Eklendi. <a:onay:756097883383791667>**")
         .setImage(`https://images-ext-1.discordapp.net/external/LPg6gvHQmn_nVoSFr3B0m79vC-BgHOXknrVh3C1Ec9I/https/i.imgur.com/ZBKrXsQ.gif`)
         .setDescription(`==================================`)
         .setThumbnail(message.author.avatarURL)
@@ -73,7 +73,7 @@ var link = spl[1]//ukqzn
     let yardım2 = new Discord.RichEmbed()//ukqzn
         .setAuthor(`==================================`)
         .setColor('#ffff00')
-        .setTitle("**Lütfen Bir URL Girin. <a:arp:770251829858271243>\n\n Hata: **" + e)
+        .setTitle("**Lütfen Bir URL Girin. <a:hayr:770352436636155934>\n\n Hata: **" + e)
         .setImage(`https://images-ext-1.discordapp.net/external/LPg6gvHQmn_nVoSFr3B0m79vC-BgHOXknrVh3C1Ec9I/https/i.imgur.com/ZBKrXsQ.gif`)
         .setDescription(`==================================`)
         .setTimestamp()
@@ -88,7 +88,7 @@ client.on("message", message => {
   var spl = message.content.split(" ");
   if(spl[0] == "u!botsay") {
   var link = spl[1]
- message.channel.send(`<a:nlem:770251864637046795>  Toplam \`${db.get("linkler").length}\` bot **aktif tutuluyor!**`)//ukqzn
+ message.channel.send(`<a:up12:772083038317445130>  Toplam \`${db.get("linkler").length}\` bot **aktif tutuluyor!**`)//ukqzn
 }})
 
 
@@ -150,7 +150,7 @@ client.on("message", message => {
 let embed5 = new discord.RichEmbed()
 .setColor('#ffff00')
 .setDescription(`
-<a:can:770510220014518283> [**Ekleme Linkim**](https://discord.com/oauth2/authorize?client_id=770188498867060777&permissions=8&scope=bot)
+<a:can:770510220014518283> [**Ekleme Linkim**](https://discord.com/oauth2/authorize?client_id=772086372718084127&permissions=8&scope=bot)
 <a:can:770510220014518283> [**Destek Sunucusu**](https://discord.gg/F6yDQ37spZ)
 `)
 .setTitle(`<a:tik1:770251922392481812> UptimeBot - Davet et <a:tik1:770251922392481812>`)
