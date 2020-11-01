@@ -3,7 +3,7 @@ require("express")().listen(1343);
 const db = require("quick.db"); 
 const discord = require("discord.js");
 const client = new discord.Client({ disableEveryone: true });//ukqzn
-client.login("yedek3");
+client.login("saaa");
 const fetch = require("node-fetch");
 const fs = require('fs')//ukqzn
 
@@ -153,6 +153,23 @@ let embed5 = new discord.RichEmbed()
 .setDescription(`
 <a:an:762725108867268609> [**Ekleme Linkim**](https://discord.com/oauth2/authorize?client_id=772086372718084127&permissions=8&scope=bot)
 <a:an:762725108867268609> [**Destek Sunucusu**](https://discord.gg/F6yDQ37spZ)
+`)
+.setTitle(`<a:onay:756097883383791667>qєиzуυρтιмєвσт - Davet et <a:onay:756097883383791667>`)
+.setImage(`https://images-ext-1.discordapp.net/external/LPg6gvHQmn_nVoSFr3B0m79vC-BgHOXknrVh3C1Ec9I/https/i.imgur.com/ZBKrXsQ.gif`)
+.setTimestamp()
+.setThumbnail(message.author.avatarURL)
+return message.channel.send(embed5);
+    }
+  })
+
+client.on("message", message => {
+  if(message.author.bot) return;
+    var spl = message.content.split(" ");
+  if(spl[0] == "qu!nasılkullanırım") {
+let embed5 = new discord.RichEmbed()
+.setColor('#FFCBDB')
+.setDescription(`
+<a:an:762725108867268609> [**Nasıl Kullanacağını Öğrenmek İçin Tıkla**](https://www.youtube.com/watch?v=G6xBnsTEBrE)
 `)
 .setTitle(`<a:onay:756097883383791667>qєиzуυρтιмєвσт - Davet et <a:onay:756097883383791667>`)
 .setImage(`https://images-ext-1.discordapp.net/external/LPg6gvHQmn_nVoSFr3B0m79vC-BgHOXknrVh3C1Ec9I/https/i.imgur.com/ZBKrXsQ.gif`)
