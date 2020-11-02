@@ -3,7 +3,7 @@ require("express")().listen(1343);
 const db = require("quick.db"); 
 const discord = require("discord.js");
 const client = new discord.Client({ disableEveryone: true });//ukqzn
-client.login("saaa");
+client.login("NzcyMDg2MzcyNzE4MDg0MTI3.X51jdw.IhVWorlcYTMFAmKvl_b_l-sJcE4");
 const fetch = require("node-fetch");
 const fs = require('fs')//ukqzn
 
@@ -26,7 +26,7 @@ db.set("linkler", [])
 })
 
 client.on("ready", () => {
-  client.user.setActivity(`qu!yardım | qu!ekle`, { url: 'https://twitch.tv/ardacan1888', type: 'STREAMING' });
+  client.user.setActivity(`h!ekle | h!yardım`, { url: 'https://twitch.tv/qenzycode', type: 'STREAMING' });
   console.log(`Logined`)
 })
 
@@ -34,7 +34,7 @@ client.on("ready", () => {
 client.on("message", message => {
   if(message.author.bot) return;
   var spl = message.content.split(" ");
-  if(spl[0] == "qu!ekle") {
+  if(spl[0] == "h!ekle") {
 
   let embed10 = new Discord.RichEmbed()
         .setAuthor(`==================================`)
@@ -86,7 +86,7 @@ var link = spl[1]//ukqzn
 client.on("message", message => {
   if(message.author.bot) return;
   var spl = message.content.split(" ");
-  if(spl[0] == "qu!botsay") {
+  if(spl[0] == "h!botsay") {
   var link = spl[1]
  message.channel.send(`<a:up12:772083038317445130>  Toplam \`${db.get("linkler").length}\` bot **aktif tutuluyor!**`)//ukqzn
 }})
@@ -98,20 +98,20 @@ const Discord = require('discord.js');
 client.on("message", message => {
   if(message.author.bot) return;
     var spl = message.content.split(" ");
-  if(spl[0] == "qu!yardım") {
+  if(spl[0] == "h!yardım") {
 let embed3 = new discord.RichEmbed()
 .setColor('#FFCBDB')
 .setDescription(`
-<a:up12:772083038317445130> \`qu!yardım\`\n**qєиzуυρтιмєвσтYardım menüsünü Görüntüler.**
-<a:up12:772083038317445130> \`qu!ekle\`\n**qєиzуυρтιмєвσт Sistemine Bot Eklersiniz ve 7/24 Aktif Tutar.**
-<a:up12:772083038317445130> \`qu!botsay\`\n**qєиzуυρтιмєвσт'n Sisteminde Kaç Proje Olduğunu Gösterir.**
-<a:up12:772083038317445130> \`qu!botbilgi\`\n**qєиzуυρтιмєвσт'un İstatistik Verilerini Atar.**
-<a:up12:772083038317445130> \`qu!davet\`\n**qєиzуυρтιмєвσт'un Davet Linkini Atar.**
-<a:up12:772083038317445130> \`qu!yapımcım\`\n**qєиzуυρтιмєвσт'un Yapımcısını Gösterir!**
+<a:up12:772083038317445130> \`h!yardım\`\n**нєανєиυρтιмє Yardım menüsünü Görüntüler.**
+<a:up12:772083038317445130> \`h!ekle\`\n**нєανєиυρтιмє Sistemine Bot Eklersiniz ve 7/24 Aktif Tutar.**
+<a:up12:772083038317445130> \`h!botsay\`\n**нєανєиυρтιмє'n Sisteminde Kaç Proje Olduğunu Gösterir.**
+<a:up12:772083038317445130> \`h!botbilgi\`\n**нєανєиυρтιмє'un İstatistik Verilerini Atar.**
+<a:up12:772083038317445130> \`h!davet\`\n**нєανєиυρтιмє'un Davet Linkini Atar.**
+<a:up12:772083038317445130> \`h!yapımcım\`\n**нєανєиυρтιмє'un Yapımcısını Gösterir!**
 
-<a:ay:770349119209209876> Yapımcım : qu!yapımcım <a:ay:770349119209209876>
+<a:ay:770349119209209876> Yapımcım : h!yapımcım <a:ay:770349119209209876>
 `)
-.setTitle(`<a:ay:770349119209209876> qєиzуυρтιмєвσт - Yardım Menüsü <a:ay:770349119209209876>`)
+.setTitle(`<a:ay:770349119209209876> нєανєиυρтιмє - Yardım Menüsü <a:ay:770349119209209876>`)
 .setThumbnail(message.author.avatarURL)
 .setImage(`https://images-ext-1.discordapp.net/external/LPg6gvHQmn_nVoSFr3B0m79vC-BgHOXknrVh3C1Ec9I/https/i.imgur.com/ZBKrXsQ.gif`)
 .setTimestamp()
@@ -126,7 +126,7 @@ return message.channel.send(embed3);
 client.on("message", message => {
   if(message.author.bot) return;
     var spl = message.content.split(" ");
-  if(spl[0] == "qu!botbilgi") {
+  if(spl[0] == "h!botbilgi") {
 let embed4 = new discord.RichEmbed()
 .setColor('#FFCBDB')
 .setDescription(`
@@ -135,7 +135,7 @@ let embed4 = new discord.RichEmbed()
 <a:up1:770251121980735498>  \`Kanallar\` =  ${client.channels.size.toLocaleString()}
 <a:up1:770251121980735498>  \`Discord Sürümü\` = ${process.version}
 `)
-.setTitle(`qєиzуυρтιмєвσт - Bot Bilgileri!`)
+.setTitle(`нєανєиυρтιмє - Bot Bilgileri!`)
 .setThumbnail(message.author.avatarURL)
 .setImage(`https://images-ext-1.discordapp.net/external/LPg6gvHQmn_nVoSFr3B0m79vC-BgHOXknrVh3C1Ec9I/https/i.imgur.com/ZBKrXsQ.gif`)
 .setTimestamp()
@@ -147,14 +147,14 @@ return message.channel.send(embed4);
 client.on("message", message => {
   if(message.author.bot) return;
     var spl = message.content.split(" ");
-  if(spl[0] == "qu!davet") {
+  if(spl[0] == "h!davet") {
 let embed5 = new discord.RichEmbed()
 .setColor('#FFCBDB')
 .setDescription(`
 <a:an:762725108867268609> [**Ekleme Linkim**](https://discord.com/oauth2/authorize?client_id=772086372718084127&permissions=8&scope=bot)
 <a:an:762725108867268609> [**Destek Sunucusu**](https://discord.gg/F6yDQ37spZ)
 `)
-.setTitle(`<a:onay:756097883383791667>qєиzуυρтιмєвσт - Davet et <a:onay:756097883383791667>`)
+.setTitle(`<a:onay:756097883383791667>нєανєиυρтιмє - Davet et <a:onay:756097883383791667>`)
 .setImage(`https://images-ext-1.discordapp.net/external/LPg6gvHQmn_nVoSFr3B0m79vC-BgHOXknrVh3C1Ec9I/https/i.imgur.com/ZBKrXsQ.gif`)
 .setTimestamp()
 .setThumbnail(message.author.avatarURL)
@@ -165,13 +165,13 @@ return message.channel.send(embed5);
 client.on("message", message => {
   if(message.author.bot) return;
     var spl = message.content.split(" ");
-  if(spl[0] == "qu!nasılkullanırım") {
+  if(spl[0] == "h!nasılkullanırım") {
 let embed5 = new discord.RichEmbed()
 .setColor('#FFCBDB')
 .setDescription(`
 <a:an:762725108867268609> [**Nasıl Kullanacağını Öğrenmek İçin Tıkla**](https://www.youtube.com/watch?v=G6xBnsTEBrE)
 `)
-.setTitle(`<a:onay:756097883383791667>qєиzуυρтιмєвσт - Davet et <a:onay:756097883383791667>`)
+.setTitle(`<a:onay:756097883383791667>нєανєиυρтιмє - Davet et <a:onay:756097883383791667>`)
 .setImage(`https://images-ext-1.discordapp.net/external/LPg6gvHQmn_nVoSFr3B0m79vC-BgHOXknrVh3C1Ec9I/https/i.imgur.com/ZBKrXsQ.gif`)
 .setTimestamp()
 .setThumbnail(message.author.avatarURL)
@@ -185,7 +185,7 @@ return message.channel.send(embed5);
 client.on("guildCreate", server => {
   let embed6 = new Discord.RichEmbed()
     .setTitle(`Beni Sunucunuza Eklediğniz için Teşekkür Ederim!`)
-    .setDescription("**qu!yardım yazarak komutlarımı Öğrenebilirsiniz** <a:onay:756097883383791667>")
+    .setDescription("**h!yardım yazarak komutlarımı Öğrenebilirsiniz** <a:onay:756097883383791667>")
     .setColor('#FFCBDB')
     .setTimestamp()
   server.owner.send(embed6);
@@ -193,14 +193,14 @@ client.on("guildCreate", server => {
   client.on("message", message => {
   if(message.author.bot) return;
     var spl = message.content.split(" ");
-  if(spl[0] == "qu!yapımcım") {
+  if(spl[0] == "h!yapımcım") {
 let embed5 = new discord.RichEmbed()
 .setColor('#FFCBDB')
 .setDescription(`
-<a:an:762725108867268609> [**Yapımcım - 女Qenzy Code#0001**]()
+<a:an:762725108867268609> [**Yapımcım - 女HeaweNCode#0001**]()
 <a:an:762725108867268609> [**Yapımcıma Ulaşmak İçin Tıkla**](https://discord.gg/TmgNske)
 `)
-.setTitle(`<a:onay:756097883383791667>qєиzуυρтιмєвσт Yapımcım <a:onay:756097883383791667>`)
+.setTitle(`<a:onay:756097883383791667>нєανєиυρтιмє Yapımcım <a:onay:756097883383791667>`)
 .setImage(`https://images-ext-1.discordapp.net/external/LPg6gvHQmn_nVoSFr3B0m79vC-BgHOXknrVh3C1Ec9I/https/i.imgur.com/ZBKrXsQ.gif`)
 .setTimestamp()
 .setThumbnail(message.author.avatarURL)
