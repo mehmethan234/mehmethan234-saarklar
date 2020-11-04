@@ -197,7 +197,7 @@ client.on("guildCreate", server => {
 let embed5 = new discord.RichEmbed()
 .setColor('#FFCBDB')
 .setDescription(`
-<a:an:762725108867268609> [**Yapımcım - 女HeaweNCode#0001**]()
+<a:an:762725108867268609> [**Yapımcım - 💎 ♦𝘏𝘦𝘢𝘸𝘦𝘯.exe♦ 💎#0001**]()
 <a:an:762725108867268609> [**Yapımcıma Ulaşmak İçin Tıkla**](https://discord.gg/TmgNske)
 `)
 .setTitle(`<a:onay:756097883383791667>нєανєиυρтιмє Yapımcım <a:onay:756097883383791667>`)
