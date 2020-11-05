@@ -73,8 +73,8 @@ var link = spl[1]//ukqzn
     let yardım2 = new Discord.RichEmbed()//ukqzn
         .setAuthor(`==================================`)
         .setColor('#FFCBDB')
-        .setTitle("**Lütfen Bir Show URL'si Girin. <a:hayr:770352436636155934>\n\n Hata: **" + e)
-        .setImage(`https://images-ext-1.discordapp.net/external/LPg6gvHQmn_nVoSFr3B0m79vC-BgHOXknrVh3C1Ec9I/https/i.imgur.com/ZBKrXsQ.gif`)
+        .setTitle("**Lütfen Bir Live (Show) URL'si Girin. <a:hayr:770352436636155934>\n\n Hata: **" + e)
+        .setImage(`https://cdn.discordapp.com/attachments/770618490155433994/774018912290734090/xw.png`)
         .setDescription(`==================================`)
         .setTimestamp()
    return message.channel.send(yardım2)
