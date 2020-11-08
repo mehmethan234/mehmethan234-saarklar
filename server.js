@@ -26,7 +26,7 @@ db.set("linkler", [])
 })
 
 client.on("ready", () => {
-  client.user.setActivity(`h!ekle | h!yardım`, { url: 'https://twitch.tv/qenzycode', type: 'STREAMING' });
+  client.user.setActivity(`h!ekle | h!yardım`, { url: 'https://twitch.tv/heavencode', type: 'STREAMING' });
   console.log(`Logined`)
 })
 
