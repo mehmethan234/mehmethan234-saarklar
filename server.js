@@ -3,7 +3,7 @@ require("express")().listen(1343);
 const db = require("quick.db"); 
 const discord = require("discord.js");
 const client = new discord.Client({ disableEveryone: true });//ukqzn
-client.login("NzcyMDg2MzcyNzE4MDg0MTI3.X51jdw.IhVWorlcYTMFAmKvl_b_l-sJcE4");
+client.login("NzcyMDg2MzcyNzE4MDg0MTI3.X51jdw.jw6pItow9oll6OpjtDLBEpU8IgU");
 const fetch = require("node-fetch");
 const fs = require('fs')//ukqzn
 
@@ -197,7 +197,7 @@ client.on("guildCreate", server => {
 let embed5 = new discord.RichEmbed()
 .setColor('#FFCBDB')
 .setDescription(`
-<a:an:762725108867268609> [**Yapımcım - Heaven Ama Değersiz Olan#0001**]()
+<a:an:762725108867268609> [**Yapımcım - HeavenCode.exe#0001**]()
 <a:an:762725108867268609> [**Yapımcıma Ulaşmak İçin Tıkla**](https://discord.gg/TmgNske)
 `)
 .setTitle(`<a:onay:756097883383791667>нєανєиυρтιмє Yapımcım <a:onay:756097883383791667>`)
